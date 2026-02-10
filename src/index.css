@@ -1,13 +1,138 @@
+/* Global body and container */
 body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5; /* subtle gray-blue */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Center container card */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  transition: all 0.3s ease;
 }
+
+.container:hover {
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2 {
+  color: #1f2937;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #e2e8f0;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tbody tr:hover {
+  background-color: #f1f5f9;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+button.add { background-color: #28a745; }
+button.edit { background-color: #007bff; }
+button.delete { background-color: #dc3545; }
+button.back { background-color: #6c757d; }
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+/* BookDetails card */
+.book-details {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.book-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.book-details .overview {
+  margin-top: 15px;
+  font-style: italic;
+  color: #4b5563;
+}
+
+/* Buttons row */
+.button-row {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+/* Buttons */
+button.add { background-color: #28a745; }      /* Green */
+button.edit { background-color: #007bff; }     /* Blue */
+button.delete { background-color: #f43f5e; }   /* Muted Red / Modern */
+button.back { background-color: #6c757d; }     /* Gray */

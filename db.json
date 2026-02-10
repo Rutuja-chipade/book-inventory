@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "publisher": "HarperOne",
+      "publishedDate": "1988-04-15",
+      "overview": "A magical story about following your dreams and listening to your heart."
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "publisher": "Secker & Warburg",
+      "publishedDate": "1949-06-08",
+      "overview": "A dystopian novel that explores totalitarianism, surveillance, and censorship."
+    },
+    {
+      "id": "3",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publisher": "J.B. Lippincott & Co.",
+      "publishedDate": "1960-07-11",
+      "overview": "A classic novel about racial injustice and the loss of innocence in the American South."
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publisher": "T. Egerton",
+      "publishedDate": "1813-01-28",
+      "overview": "A romantic novel that explores manners, upbringing, morality, and marriage in early 19th century England."
+    },
+    {
+      "id": "5",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publisher": "Charles Scribner's Sons",
+      "publishedDate": "1925-04-10",
+      "overview": "A critique of the American Dream through the tragic story of Jay Gatsby and his unrequited love."
+    }
+  ]
+}
